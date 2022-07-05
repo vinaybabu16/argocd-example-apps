@@ -10,8 +10,8 @@ spec:
     spec:
       containers:
         - name: upgrade-sql-schema
-          image: alpine:3.16.0
-          command: ["sleep", "5"]
+          image: alpine:latest
+          command: ["afdsdfa", "5"]
       restartPolicy: Never
 ---
 apiVersion: apps/v1
@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
         - name: main
-          image: nginx:3.16.0
+          image: nginx:latest
 ---
 apiVersion: v1
 kind: Service
