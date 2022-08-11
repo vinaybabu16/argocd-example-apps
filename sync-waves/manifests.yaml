@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
         - name: main
-          image: nginx:etawtets
+          image: nginx:latest
 ---
 apiVersion: v1
 kind: Service
@@ -80,7 +80,7 @@ spec:
     spec:
       containers:
         - name: main
-          image: nginx:etawtets
+          image: nginx:latest
 ---
 apiVersion: v1
 kind: Service
