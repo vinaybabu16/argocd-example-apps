@@ -49,7 +49,7 @@ spec:
     spec:
       containers:
         - name: main
-          image: nginx:1.23.1
+          image: nginx:unknown
 ---
 apiVersion: v1
 kind: Service
